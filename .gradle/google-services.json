@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "419337214215",
+    "project_id": "consultas-medicas-firebase",
+    "storage_bucket": "consultas-medicas-firebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419337214215:android:b7479d966f446e8a838da2",
+        "android_client_info": {
+          "package_name": "com.Android.ConsultasMedicas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419337214215-44tbsc3uo9sid8ler1f64ookmeigeukc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcEmJdBlTkmKQpLFm23I4rBZyou1CFlmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419337214215-44tbsc3uo9sid8ler1f64ookmeigeukc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:419337214215:android:72396c2918993361838da2",
+        "android_client_info": {
+          "package_name": "com.example.consultasmedicas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "419337214215-44tbsc3uo9sid8ler1f64ookmeigeukc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcEmJdBlTkmKQpLFm23I4rBZyou1CFlmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "419337214215-44tbsc3uo9sid8ler1f64ookmeigeukc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

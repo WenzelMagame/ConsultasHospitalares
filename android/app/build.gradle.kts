@@ -1,10 +1,16 @@
+
 plugins {
     id("com.android.application")
+    // START: FlutterFire Configuration
+    //id("com.google.gms.google-services")
+    // END: FlutterFire Configuration
     id("kotlin-android")
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id("dev.flutter.flutter-gradle-plugin")
+    id("com.google.gms.google-services") version "4.4.4" apply false
 }
 
+apply(plugin = "com.google.gms.google-services")
 android {
     namespace = "com.example.consultasmedicas"
     compileSdk = flutter.compileSdkVersion
@@ -18,7 +24,7 @@ android {
     kotlinOptions {
         jvmTarget = JavaVersion.VERSION_17.toString()
     }
-
+S
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
         applicationId = "com.example.consultasmedicas"
@@ -41,4 +47,9 @@ android {
 
 flutter {
     source = "../.."
+}
+dependencies {
+    implementation(platform("com.google.firebase:firebase-bom:34.13.0"))
+    implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-auth")
 }
